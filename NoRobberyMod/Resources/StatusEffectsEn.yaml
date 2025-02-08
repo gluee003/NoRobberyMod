@@ -1,0 +1,5 @@
+BribeStatus:
+    Name: Bribe
+    Description: |-
+        {OwnerName} collects {Bribe} <sprite="Point" name="Gold"> for every |Bribery| played.
+        Will drop {Level} <sprite="Point" name="Gold"> when defeated.
