@@ -1,6 +1,6 @@
 {
   "name": "NoMoreRobbery",
-  "version_number": "1.0.0",
+  "version_number": "1.0.1",
   "website_url": "https://github.com/gluee003/NoRobberyMod",
   "description": "No more getting robbed by Megumu. After bribing, defeat her before she escapes to get your money back.",
   "dependencies": [ "BepInEx-BepInExPack-5.4.2100", "TeamNeo-Sideloader-0.5.0"]

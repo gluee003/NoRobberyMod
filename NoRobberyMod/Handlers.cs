@@ -27,7 +27,6 @@ namespace NoRobberyMod
         }
         private static void OnCardUsed(CardUsingEventArgs args)
         {
-            Debug.Log("hi1");
             if (args.Card is Bribery briberyCard)
             {
                 BattleController battle = briberyCard.Battle;   
@@ -42,7 +41,6 @@ namespace NoRobberyMod
                 }
                 else
                 {
-                    Debug.Log("hi2");
                     EnemyUnit longUnit = list.First<EnemyUnit>();
                     battle.React(new ApplyStatusEffectAction<BribeStatus>(longUnit, briberyCard.MoneyCost), longUnit, ActionCause.CardUse);
                 }
